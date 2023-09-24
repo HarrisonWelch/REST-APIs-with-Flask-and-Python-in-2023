@@ -24,7 +24,7 @@ def average_grade_all_students(student_list):
     count = 0
     for student in student_list:
         total += sum(student['grades'])
-        count += sum(student['grades'])
+        count += len(student['grades'])
 
     return total / count
 ```
