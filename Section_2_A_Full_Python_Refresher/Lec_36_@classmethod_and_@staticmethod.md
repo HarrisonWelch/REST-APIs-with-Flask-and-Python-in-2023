@@ -132,5 +132,13 @@ print(light)
 "cls" is the book class. Use that instead of book
 
 ```py
-
+...
+    @classmethod
+    def hardcover(cls, name, page_weight):
+        return cls(name, Book.TYPES[0], page_weight + 100)
+    
+    @classmethod
+    def paperback(cls, name, page_weight):
+        return cls(name, Book.TYPES[1], page_weight)
+...
 ```
