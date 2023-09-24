@@ -42,10 +42,10 @@
 
 # ----
 
-def add_friend():
-    friends.append("Rolf")
+# def add_friend():
+#     friends.append("Rolf")
 
-friends = []
-add_friend()
+# friends = []
+# add_friend()
 
-print(friends)
+# print(friends)
