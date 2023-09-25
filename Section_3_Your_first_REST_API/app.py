@@ -19,7 +19,6 @@ stores = [
 def get_stores():
     return {"stores": stores}
 
-
 @app.post("/store")
 def create_store():
     request_data = request.get_json()
