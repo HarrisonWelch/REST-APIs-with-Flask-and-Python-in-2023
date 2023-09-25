@@ -43,6 +43,10 @@ code.py: __main__
 
 Notice on run that the imports are all reverse. The deepest file runs first.
 
+File Structure
+
+![30_file_org image](https://github.com/HarrisonWelch/REST-APIs-with-Flask-and-Python-in-2023-Notes/blob/master/Screenshots/30_file_org.png)
+
 ## Relative input
 
 Put a function in mymodule.py
@@ -72,4 +76,4 @@ If you are to use relative imports you need to the keep the same file at the top
 
 `import *` will import everything.
 
-Advice don't use relative import. Brain hurt.
+Advice - don't use relative import. Brain hurt.
